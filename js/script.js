@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
 
     		jQuery.ajax({
     			url: actUrl,
-    			type: 'post',
+    			type: 'get',
     			dataType: 'html',
     			data: form.serialize(),
     			success: function(data) {
